@@ -139,6 +139,17 @@ body
     margin-right: 10px;
 }
 
+.container .decription .btn2
+{
+    background-color: white;
+    font-weight: 100;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: #0f4c81 !important;
+    padding: 10px 20px 10px 20px;
+}
+
+
 .container .decription
 {
     width: 480px;
@@ -152,7 +163,15 @@ body
     color: #fff;
 }
 
-.container .decription a:hover
+container .decription a.btn2:hover
+{
+    background-color: #eeeeee;
+    text-decoration: none;
+    color: #fff
+    transition: background-color .15s ease-in-out;
+}
+
+.container .decription a.btn:hover
 {
     background-color: #0E3C71;
     text-decoration: none;
