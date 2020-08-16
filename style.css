@@ -163,15 +163,7 @@ body
     color: #fff;
 }
 
-container .decription a.btn2:hover
-{
-    background-color: #eeeeee;
-    text-decoration: none;
-    color: #fff
-    transition: background-color .15s ease-in-out;
-}
-
-.container .decription a.btn:hover
+.container .decription a:hover
 {
     background-color: #0E3C71;
     text-decoration: none;
