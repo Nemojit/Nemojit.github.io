@@ -24,11 +24,6 @@ body
     box-shadow: 0 0rem 1rem rgba(0,0,0,.5);
 }
 
-.navbar .other
-{
-    visibility: hidden;
-}
-
 .navbar home
 {
     display: inline-block;
@@ -300,6 +295,11 @@ body
 
 @media screen and (max-width: 960px)
 {
+    .navbar .other
+    {
+        visibility: hidden;
+    }
+
     .navbar home
     {
         margin-left: 20px;
