@@ -24,6 +24,11 @@ body
     box-shadow: 0 0rem 1rem rgba(0,0,0,.5);
 }
 
+.navbar .other
+{
+    visibility: hidden;
+}
+
 .navbar home
 {
     display: inline-block;
