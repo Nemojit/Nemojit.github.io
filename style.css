@@ -297,7 +297,7 @@ body
 {
     .navbar .other
     {
-        visibility: hidden;
+        display: none;
     }
 
     .navbar home
